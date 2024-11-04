@@ -113,7 +113,7 @@ def pp():
 				print(' \033[1;37m[\033[1;32m3\033[1;37m]\033[1;32m 4$ \033[1;37m Approval For 7 days')
 				lol=input(' (•) Select Buy Option For Approval :')
 				xx='➤➤Selected=='
-				os.system('xdg-open https://wa.me/+8801627550986?text='+str(ky)+xx+lol)
+				os.system('xdg-open https://wa.me/+8801617550986?text='+str(ky)+xx+lol)
 				pp()
 	except requests.exceptions.ConnectionError:
 		exit(f' [!] Your Internet Connection Lol...!')
