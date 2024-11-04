@@ -94,7 +94,7 @@ def pp():
 	try:
 			#li = ['h','t','t','p','s',':','/','/','s','h','a','i','k','h','k','e','y','.','b','l','o','g','s','p','o','t','.','c','o','m','/','2','0','2','4','/','0','2','/','s','h','a','i','k','h','.','h','t','m','l','?','m','=','1']
 			#li = ''.join(li)
-			system = requests.get("https://github.com/xive7/Paid/blob/main/Old.text").text 
+			system = requests.get("https://github.com/Mr-Ocean0/Test/blob/main/Testo.txt").text 
 			#ck = requests.get(f'{li}').text
 			if ky in system:
 				linex()
@@ -113,7 +113,7 @@ def pp():
 				print(' \033[1;37m[\033[1;32m3\033[1;37m]\033[1;32m 4$ \033[1;37m Approval For 7 days')
 				lol=input(' (•) Select Buy Option For Approval :')
 				xx='➤➤Selected=='
-				os.system('xdg-open https://wa.me/+8801332718196?text='+str(ky)+xx+lol)
+				os.system('xdg-open https://wa.me/+8801627550986?text='+str(ky)+xx+lol)
 				pp()
 	except requests.exceptions.ConnectionError:
 		exit(f' [!] Your Internet Connection Lol...!')
